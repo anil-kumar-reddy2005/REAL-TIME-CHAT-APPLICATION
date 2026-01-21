@@ -24,3 +24,4 @@ Overall, this project successfully fulfills the requirements of a real-time chat
 
 OUTPUT:
 
+<img width="301" height="166" alt="Image" src="https://github.com/user-attachments/assets/a82b5d04-fdb8-4702-8424-7e923f0ff2b6" />
