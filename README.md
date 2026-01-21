@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+REAL-TIME CHAT APPLICATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+COMPANY:CODETECH IT SOLUTIONS
 
-## Available Scripts
+INTERN ID:CTIS0884
 
-In the project directory, you can run:
+DOMAIN NAME:FRONTEND DEVELOPMENT
 
-### `npm start`
+DURATION:4 WEEKS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MENTOR:NEELA SANTOSH
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+DESCRIPTION:
 
-### `npm test`
+This project is a Real-Time Chat Application developed using React.js as the front-end framework and the WebSocket API to enable instant communication. The main goal of this project is to demonstrate how real-time messaging can be implemented on the client side without using a backend server. The application provides a clean and responsive chat interface where users can send and receive messages instantly without refreshing the page. It is designed primarily for learning purposes, academic submissions, and frontend demonstrations.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application uses the browser’s native WebSocket API to establish a persistent connection with a public WebSocket echo server. Once the connection is established, messages sent by the user are immediately transmitted through the WebSocket and received back in real time. This real-time behavior closely simulates how modern chat applications work. The absence of a backend server simplifies the architecture while still allowing students to understand the fundamentals of real-time communication, event-driven programming, and state management in React.
 
-### `npm run build`
+The user interface is built using React functional components and hooks such as useState, useEffect, and useRef. These hooks are used to manage user input, message history, WebSocket connections, and automatic scrolling of the chat window. The chat interface includes a join screen where the user enters a username, followed by the main chat window that displays messages along with timestamps. Messages are visually separated to distinguish between the user’s messages and received messages, improving readability and user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To ensure responsiveness and visual appeal, Bootstrap is used for layout and styling along with custom CSS. The application adapts well to different screen sizes, making it usable on both desktop and mobile devices. Message history is maintained in the application’s state for the duration of the session, allowing users to view previous messages during the same runtime. This approach demonstrates effective client-side state handling without relying on external storage or databases.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Overall, this project successfully fulfills the requirements of a real-time chat system using WebSockets and a modern front-end framework. While it does not support multi-user communication or persistent storage due to the absence of a backend, it serves as an excellent demonstration of real-time concepts, frontend architecture, and React development best practices. The project is ideal for students learning React, WebSockets, or real-time application design and can be further extended by adding features such as local storage, dark mode, authentication, or backend integration in the future.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+OUTPUT:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
