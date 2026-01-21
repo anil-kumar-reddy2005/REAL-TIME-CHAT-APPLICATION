@@ -1,0 +1,14 @@
+.chat-box {
+  width: 400px;
+  height: 520px;
+}
+
+.chat-body {
+  height: 360px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+.join-box {
+  width: 350px;
+}
